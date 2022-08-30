@@ -1,0 +1,6 @@
+RUN install2.r --error --skipinstalled \ 
+  here \ 
+  lubridate \ 
+  tidyverse
+RUN installGithub.r \ 
+  aaronpeikert/repro@fc7e884
